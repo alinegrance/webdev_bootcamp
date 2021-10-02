@@ -1,0 +1,214 @@
+body {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(30, 42, 46);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+p {
+  color: rgb(89, 122, 134);
+}
+
+/* HEADINGS */
+
+.big-heading {
+  font-weight: 900;
+  font-size: 4rem;
+}
+
+.section-heading {
+  font-size: 3rem;
+}
+
+.container-fluid {
+  padding: 15% 7%;
+}
+
+/* SECTIONS */
+.white-section {
+  background-color: white;
+}
+
+/* TITLE */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  background-color: rgb(167, 178, 201);
+  text-align: left;
+}
+
+/* nav bar*/
+.navbar {
+  padding: 0 0 5rem;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.text-brand {
+  color: rgb(30, 42, 46);
+}
+
+.t-brand {
+  color: rgb(36, 148, 137);
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: rgb(36, 148, 137);
+}
+
+/* download buttons*/
+.download-btn {
+  margin: 7% 3% 5% 0;
+}
+
+.download-btn:hover {
+  background-color: rgb(136, 187, 183);
+}
+
+/* title img */
+.title-img {
+  position: absolute;
+  width: 20%;
+  transform: rotate(20deg);
+  right: 22%;
+}
+
+/* FEATURES */
+#features {
+  position: relative;
+}
+
+.features-div {
+  padding: 0 25px;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.icons {
+  font-size: 5rem;
+  color: rgb(136, 187, 183);
+}
+.icons:hover {
+  color: rgb(167, 178, 201);
+}
+
+/* TESTIMONIALS*/
+#testimonials {
+  background-color: rgb(136, 187, 183);
+}
+
+.testimonial-text {
+  font-size: 3rem;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  border: 2px solid;
+  border-color: rgb(167, 178, 201);
+  margin: 20px;
+}
+
+/* PRESS */
+#press {
+  padding-bottom: 5%;
+  background-color: rgb(136, 187, 183);
+}
+
+.press-logo {
+  width: 12%;
+  margin: 0 50px;
+}
+
+/* PRICING */
+#pricing {
+  padding: 5% 15%;
+}
+.purchase-btn:hover {
+  background-color: rgb(136, 187, 183);
+}
+
+/* card-header-background */
+.crd-hdr-bg {
+  background-color: rgb(167, 178, 201);
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+}
+
+/* CALL TO ACTION */
+#cta {
+  background-color: rgb(167, 178, 201);
+}
+
+#cta .big-heading {
+  font-size: 3rem;
+}
+
+.download-btn-end {
+  margin: 3% 2% 0;
+}
+
+.download-btn-end:hover {
+  background-color: rgb(136, 187, 183);
+}
+
+/* FOOTER */
+#footer {
+  font-size: small;
+}
+
+#footer .container-fluid {
+  padding-bottom: 5%;
+}
+
+.social-media-btn {
+  color: rgb(30, 42, 46);
+  padding: 0px 5px 15px;
+}
+
+.social-media-btn:hover {
+  color: rgb(136, 187, 183);
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 1028px) {
+  #title .container-fluid {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    width: 40%;
+  }
+}
